@@ -59,8 +59,11 @@ toxic <- toxic[toxic$ToxicAlgae > 0, ]
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                                  EXPORT DATA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Change name for uniformity
+ToxicAlgae <- toxic
+
 # Export object as .RData
-save(toxic, file = './Data/Driver/ToxicAlgae.RData')
+save(ToxicAlgae, file = './Data/Driver/ToxicAlgae.RData')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
