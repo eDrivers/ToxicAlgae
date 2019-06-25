@@ -1,0 +1,26 @@
+title: "Toxic algae"
+subtitle: ""
+description: "Risk of toxic algae outbreaks from expert based map"
+
+rawData:
+  source: "Bates, S., Beach, D., Comeau, L., Haigh, N., Lewis, N., Locke, A., et al. (In revision). Marine harmful algal blooms and phycotoxins of concern to Canada. Can. Tech. Rep. Fish. Aquat. Sci."
+  contact: "Michel Starr"
+
+dataDescription:
+  units: "Expert based"
+  spatialResolution: "NA"
+  temporalResolution: "NA"
+  years: "NA"
+  projection:
+    proj4string: "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    egsp: "32198"
+  extent:
+    xmin: "-67024.39"
+    ymin: "193917.1"
+    xmax: "862478.6"
+    ymax: "934988.8"
+
+availability:
+  rawData: "yes"
+  code: "yes"
+  driver: "yes"
